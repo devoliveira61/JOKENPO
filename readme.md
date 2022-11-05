@@ -46,11 +46,11 @@ As seguintes ferramentas foram usadas na construção do projeto:
 </br>
 
 <a href="https://devdanieldeoliveira.com.br/">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/98242025?v=4" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="https://i.ibb.co/PCBSMsY/imggithub.png" width="120px;" alt=""/>
  <br />
- <sub><b>Daniel de Oliveira</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago//" title="Rocketseat">👋</a>
+ <sub><b>Daniel de Oliveira</b></sub></a>👋
 
-Feito com 💙 por Daniel de Oliveira 👋🏽 Entre em contato!
+Feito com 🧡 por Daniel de Oliveira 👋 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Daniel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/devoliveira61/)](https://www.linkedin.com/in/devoliveira61) 
 [![Gmail Badge](https://img.shields.io/badge/-danieldoliveiraddjob@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:danieldoliveiraddjob@gmail.com)](mailto:danieldoliveiraddjob@gmail.com)
