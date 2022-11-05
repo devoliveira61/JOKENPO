@@ -5,7 +5,7 @@
 <br>
 <h3 align="center">🎮 Project History</h3>
 <br>
-
+ 
 <p align="center">I Developed this project after remembering my childhood, when I played on Nintendo... I started with wireframes doing all the prototyping and then I went to Figma and created the layout. After finishing, I started the development. Using only: HTML, CSS and JS!</p>
 
 <br>
