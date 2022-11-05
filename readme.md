@@ -25,6 +25,6 @@
 <br>
 
 <br>
-<p align="center"><a href="https://game-jokenpo.surge.sh/"><bClick here and play</b></a> 
+<p align="center"><a href="https://game-jokenpo.surge.sh/"><b>Click here and play</b></a> 
 </p>
 
