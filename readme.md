@@ -3,14 +3,18 @@
 #
 
 <br>
-<h3 align="center">🎮 História do Projeto</h3>
+<h3 align="center">🎮 Historia do Projeto</h3>
 <br>
 
-<p align="">Desenvolvi este projeto após relembrar da minha infancia, da época que eu jogava no Nintendo... Eu iniciei com wireframes fazendo toda a prototipação e ai parti para o Figma e criei o layout. Após terminar iniciei o desenvolvimento. Utilizando somente: HTML, CSS e JS!</p>
+
+
+<p align="center">Desenvolvi este projeto após relembrar da minha infancia, da época que eu jogava no Nintendo... Eu iniciei com wireframes fazendo toda a prototipação e ai parti para o Figma e criei o layout. Após terminar iniciei o desenvolvimento. Utilizando somente: HTML, CSS e JS!</p>
 
 <br>
 
-### 🛠 Tecnologias 
+<h3 align="center">O que foi utilizado 👇🏻</h3>
+
+### 🛠 Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -19,6 +23,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [Figma](https://www.figma.com/)
 
+
 <br>
 
 <h3 align="center"><b>Preview e Deploy</b></h3></br>
@@ -26,8 +31,10 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <img src="./assets/img/capa-projeto.png" />
 <br>
 
-<br>
-<p align="center"><a href="https://game-jokenpo.surge.sh/"><b>Clique aqui e acesse o jogo</b></a> 
+<p align="center">
+ <b>
+<a href="https://game-jokenpo.surge.sh/" target="_blank">Click here and play</a>
+ </b>
 </p>
 
 <div align="center">
