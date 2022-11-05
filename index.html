@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jokenpô - Daniel de Oliveira - 2022</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/img/paper.png">
+  </head>
+  <body>
+    <div class="container" id="screen">
+      <div class="scoreSection">
+        <div class="score">
+          <span id="youScore">Your Score:</span>
+          <span id="cpuScore">Cpu Score:</span>
+        </div>
+      </div>
+      <div class="optionsGame">
+        <div class="containerOptionsGame">
+          <span id="latterTheme"><</span>
+          <div class="playerOne">
+            <div class="playerOneOptions">
+              <img
+                src="assets/img/rock.png"
+                id="playerRock"
+                alt=""
+                onclick="startGame(1)"
+              />
+              <img
+                src="assets/img/paper.png"
+                id="playerPaper"
+                alt=""
+                onclick="startGame(2)"
+              />
+              <img
+                src="assets/img/scissors.png"
+                id="playerScissors"
+                alt=""
+                onclick="startGame(3)"
+              />
+              <span id="you">you</span>
+            </div>
+          </div>
+          <div class="msgWin">
+            <p id="winsRound">To Start</p>
+            <span id="vs">vs</span>
+          </div>
+          <div class="playerTwo">
+            <div class="playerTwoOptions">
+              <img src="assets/img/rock.png" id="cpuRock" alt="" />
+              <img src="assets/img/paper.png" id="cpuPaper" alt="" />
+              <img src="assets/img/scissors.png" id="cpuScissors" alt="" />
+              <span id="cpu">cpu</span>
+            </div>
+          </div>
+          <span id="nextTheme">></span>
+          <div class="baseBoard">
+            <span id="baseBoardCredits">
+              Developed by Daniel de Oliveira I used only HTML, CSS and JS.
+              Thanks for accessing!
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>

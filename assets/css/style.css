@@ -1,0 +1,164 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Press Start 2P", cursive;
+}
+
+body {
+  background-color: #1E1E1E;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  -webkit-text-stroke: 0.5px #2e45bd;
+  text-shadow: 1px 1px 0px #242424;
+}
+
+.container {
+  width: 950px;
+  height: 600px;
+  border-radius: 5px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/assets/img/background-2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container .scoreSection {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container .scoreSection .score {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+  color: #fff;
+}
+
+.container .scoreSection .score span {
+  text-transform: uppercase;
+  font-size: 19px;
+}
+
+.container .optionsGame .containerOptionsGame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .optionsGame .containerOptionsGame {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 60px;
+}
+
+.container .optionsGame .msgWin {
+  padding: 80px;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 18px;
+}
+
+.container .optionsGame .msgWin #vs {
+  font-size: 12px;
+}
+
+.container .optionsGame .playerOne,
+.playerTwo {
+  margin: 30px;
+}
+
+.container
+  .optionsGame
+  .playerOne
+  .containerOptionsGame
+  .playerOneOptions
+  .playerTwoOptions,
+img {
+  height: 70px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+.containerOptionsGame #nextTheme,
+#latterTheme {
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.playerOneOptions .playerTwoOptions,
+#playerRock,
+#cpuRock {
+  height: 55px;
+}
+
+.playerOneOptions #you {
+  font-size: 21px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+}
+
+.playerTwoOptions #cpu {
+  font-size: 21px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+}
+
+.container .baseBoard {
+  position: absolute;
+  top: 310px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.container .baseBoard #baseBoardCredits {
+  max-width: 400px;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.container .baseBoard #baseBoardCredits:hover {
+  transform: scale(1.1);
+}
