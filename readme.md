@@ -24,7 +24,8 @@
 <img src="./assets/img/capa-projeto.png" />
 <br>
 
-<br>
-<p align="center" target="blank"><a href="https://game-jokenpo.surge.sh/"><b>Click here and play</b></a> 
+<p align="center">
+ <b>
+<a href="https://game-jokenpo.surge.sh/" target="_blank">Click here and play</a>
+ </b>
 </p>
-
