@@ -38,7 +38,8 @@ const game = () => {
 /* Opções da CPU */
 const cpuOptions = () => {
   const options = ["rock", "paper", "scissors"];
-  const cpuNumber = Math.floor(Math.random() * 3);
+  const cpuOption = options[Math.floor(Math.random() * options.length)]; 
+  const cpuNumber = Math.floor(Math.random() * (3 - 1 + 1)) + 1;
   const cpuChoice = options[cpuNumber];
   switch (cpuChoice) {
     case "rock":
@@ -60,7 +61,6 @@ const cpuOptions = () => {
   checkWinner();
 };
 
-/* Verifica o vencedor seja CPU ou Player e atualiza o placa de pontuação */
 const checkWinner = () => {
   if (
     playerRock.classList.contains("active") &&

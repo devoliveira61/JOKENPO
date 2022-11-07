@@ -6,7 +6,7 @@
 }
 
 body {
-  background-color: #1E1E1E;
+  background-color: #1e1e1e;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -98,10 +98,12 @@ img {
   height: 70px;
   cursor: pointer;
   transition: all 0.4s;
+  opacity: 0.5;
 }
 
 img:hover {
   transform: scale(1.1);
+  opacity: 1;
 }
 
 .containerOptionsGame #nextTheme,
@@ -162,3 +164,22 @@ img:hover {
 .container .baseBoard #baseBoardCredits:hover {
   transform: scale(1.1);
 }
+
+.container
+  .optionsGame
+  .containerOptionsGame
+  .playerOne
+  .playerOneOptions
+  .active {
+  opacity: 1;
+}
+
+.container
+  .optionsGame
+  .containerOptionsGame
+  .playerTwo
+  .playerTwoOptions
+  .active {
+  opacity: 1;
+}
+
